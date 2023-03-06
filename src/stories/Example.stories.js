@@ -27,4 +27,9 @@ design: {
     type: 'figma',
     url: "https://www.figma.com/file/Ui7iJmbHZPFwzuiNFdNplR/Untitled?node-id=475%3A443&t=J8sgmfkFln0UVeVn-4",
   },
+  // design: {
+  //   type: 'figma',
+  //   url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
+  // },
+  
 };

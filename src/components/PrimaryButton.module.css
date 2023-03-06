@@ -1,0 +1,18 @@
+
+.btn{
+   min-width: 170px;
+   min-height: 50px;
+   color: white;
+   border-radius: 8px;
+   padding: 14.5px 32px;
+   font-family: 'Libre Franklin';
+   font-weight: 600;
+   font-size: 17px;
+   letter-spacing: 0.35px;
+   line-height: 21px;
+}
+
+.btn:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}

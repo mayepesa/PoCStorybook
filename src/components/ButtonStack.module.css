@@ -1,0 +1,46 @@
+.btnsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 327px;
+    height: 166px;
+}
+
+.btn{
+    min-width: 170px;
+    min-height: 50px;
+    border-radius: 8px;
+    padding: 14.5px 32px;
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.35px;
+ }
+ 
+ .btn:hover,
+ .tertiary:hover{
+     opacity: 0.4;
+     cursor: pointer;
+ }
+
+ .primary{
+    color: white;
+    background-color: #3356D7;
+    border: none;
+ }
+
+ .secondary{
+    background-color: white;
+    border: 1px solid #CACBDE ;
+    color: #3356D7;
+ }
+
+ .tertiary{
+    
+    border: none;
+    background-color: transparent;
+    color: #3356D7;
+    text-decoration: underline;
+    
+ }
+

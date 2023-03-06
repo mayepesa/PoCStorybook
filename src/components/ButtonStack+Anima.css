@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap');
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button-stack {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 166px;
+  width: 327px;
+  /* added */
+  font-family: 'Libre Franklin';
+}
+
+.buttons-default {
+  align-items: flex-start;
+  /* added color directly instead of var */
+  background-color: #3356D7;
+  border-radius: 8px;
+  display: flex;
+  height: 50px;
+  min-width: 327px;
+  padding: 13.5px 32px;
+}
+
+.button-label {
+  height: 21px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+  text-align: center;
+  width: 263px;
+  
+}
+
+.buttons-default-1 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  height: 50px;
+  margin-top: 8px;
+  min-width: 327px;
+  padding: 13.5px 32px;
+}
+.button-label-1 {
+  letter-spacing: 0.06px;
+  line-height: normal;
+  min-height: 21px;
+  text-align: center;
+  width: 263px;
+}
+
+.button-label-2 {
+  letter-spacing: 0.06px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 21px;
+  text-align: center;
+  width: 263px;
+}
+
+.librefranklin-semi-bold-white-17px{
+    color: white;
+    font-weight: 600;
+}
+
+.librefranklin-semi-bold-cerulean-blue-17px{
+    color:#3356D7;
+    font-weight: 600;
+
+}

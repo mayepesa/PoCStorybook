@@ -1,16 +1,18 @@
 import Button from "../components/Button";
+import { within, userEvent } from "@storybook/testing-library";
 
+import { expect } from "@storybook/jest";
 // First we need to tell it what component we are using
 export default {
   // The title prop is optional.
   title: "Components/Button",
   component: Button,
-  argTypes: { 
-    handleClick: { 
-        // this next handleClick is the label that we see when the btn is clicked
-        action: "handleClick" 
-    } 
-},
+  argTypes: {
+    handleClick: {
+      // this next handleClick is the label that we see when the btn is clicked
+      action: "handleClick",
+    },
+  },
 };
 
 // template
@@ -23,6 +25,12 @@ Default.args = {
   // these are shown in the addons section below canvas
   label: "Press me",
 };
+Default.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  await userEvent.click(canvas.getByRole("button"));
+  await expect(canvas.getByText("You clicked me")).toBeInTheDocument();
+};
+
 export const Red = Template.bind({});
 Red.args = {
   // these are shown in the addons section below canvas
