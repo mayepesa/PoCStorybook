@@ -42,6 +42,7 @@ const Login = () => {
           }
         />
       </div>
+      <PrimaryButton type="submit" label="Login" />
       <div className={styles.inputContainer}>
         <label
           htmlFor="password"
@@ -63,7 +64,7 @@ const Login = () => {
           }
         />
       </div>
-      <PrimaryButton type="submit" label="Login" />
+      
     </form>
   );
 };
