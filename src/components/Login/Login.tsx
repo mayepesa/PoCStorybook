@@ -33,7 +33,7 @@ const Login = () => {
         type="email"
         value={formValues.email}
         onChange={handleInput}
-        testId="login-pass"
+        testId="login-email"
       />
       <Input
         label="Password"
@@ -41,7 +41,7 @@ const Login = () => {
         type="password"
         value={formValues.password}
         onChange={handleInput}
-        testId="password-pass"
+        testId="login-pass"
       />
       <PrimaryButton type="submit" label="Login" />
       {show && <h3>Login successful</h3>}
