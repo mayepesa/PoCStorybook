@@ -1,4 +1,4 @@
-import ButtonStack from "../components/ButtonStack+Anima";
+import ButtonStack from "../components/ButtonStack+Anima/ButtonStack+Anima";
 
 // First we need to tell it what component we are using
 export default {

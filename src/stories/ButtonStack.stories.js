@@ -1,4 +1,4 @@
-import ButtonStack from "../components/ButtonStack";
+import ButtonStack from "../components/ButtonStack/ButtonStack";
 
 // First we need to tell it what component we are using
 export default {
@@ -23,13 +23,11 @@ export default {
 const Template = (args) => <ButtonStack {...args} />;
 
 export const Default = Template.bind({});
-
 Default.args = {
   primaryName: "Primary Action",
   secondaryName: "Secondary Action",
   tertiaryName: "Tertiary Action",
 };
-
 Default.parameters = {
   design: {
     type: "figma",
@@ -40,3 +38,9 @@ Default.parameters = {
   //   url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
   // },
 };
+
+export const LongLabel = Template.bind({});
+LongLabel.args = {
+  primaryName: 'Primary button Primary Button Primary Button'
+}
+

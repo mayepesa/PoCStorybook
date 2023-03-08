@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap);
+
+.Button_btn__RBtNK{ 
+    border-radius: 20px;
+    background-color: 'red';
+    color: white;
+}
+
+.Button_btn__RBtNK:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button-stack {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 166px;
+  width: 327px;
+  /* added */
+  font-family: 'Libre Franklin';
+}
+
+.buttons-default {
+  align-items: flex-start;
+  /* added color directly instead of var */
+  background-color: #3356D7;
+  border-radius: 8px;
+  display: flex;
+  height: 50px;
+  min-width: 327px;
+  padding: 13.5px 32px;
+}
+
+.button-label {
+  height: 21px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+  text-align: center;
+  width: 263px;
+  
+}
+
+.buttons-default-1 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  height: 50px;
+  margin-top: 8px;
+  min-width: 327px;
+  padding: 13.5px 32px;
+}
+.button-label-1 {
+  letter-spacing: 0.06px;
+  line-height: normal;
+  min-height: 21px;
+  text-align: center;
+  width: 263px;
+}
+
+.button-label-2 {
+  letter-spacing: 0.06px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 21px;
+  text-align: center;
+  width: 263px;
+}
+
+.librefranklin-semi-bold-white-17px{
+    color: white;
+    font-weight: 600;
+}
+
+.librefranklin-semi-bold-cerulean-blue-17px{
+    color:#3356D7;
+    font-weight: 600;
+
+}
+
+.ButtonStack_btnsContainer__LlvIJ{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 327px;
+    height: 166px;
+}
+
+.ButtonStack_btn__wLQEk{
+    min-width: 170px;
+    min-height: 50px;
+    border-radius: 8px;
+    padding: 14.5px 32px;
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.35px;
+ }
+ 
+ .ButtonStack_btn__wLQEk:hover,
+ .ButtonStack_tertiary__3EzJc:hover{
+     opacity: 0.4;
+     cursor: pointer;
+ }
+
+ .ButtonStack_primary__gN2R3{
+    color: white;
+    background-color: #3356D7;
+    border: none;
+ }
+
+ .ButtonStack_secondary__KWG18{
+    background-color: white;
+    border: 1px solid #CACBDE ;
+    color: #3356D7;
+ }
+
+ .ButtonStack_tertiary__3EzJc{
+    
+    border: none;
+    background-color: transparent;
+    color: #3356D7;
+    text-decoration: underline;
+    
+ }
+
+
+* {
+  margin: 0px;
+  font-family: "Libre Franklin";
+}
+
+.Login_form__xawx9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.Login_inputContainer__geP7u {
+  display: flex;
+  flex-direction: column;
+  min-width: 327px;
+  min-height: 60px;
+  border-radius: 8px;
+  border: none;
+  outline: 1px  solid #cacbde;
+  position: relative;
+  margin: 12px 0;
+}
+
+.Login_inputContainer__geP7u:focus-visible {
+  border: 1px solid #5f6076;
+}
+
+.Login_label__ag7J4 {
+  color: #5f6076;
+  margin: 6px 0;
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  font-size: 16px;
+}
+
+.Login_active__v1yrc {
+  font-size: 14px;
+  margin: 0;
+  position: absolute;
+  top: 9px;
+  left: 16px;
+}
+
+.Login_input__xEN53 {
+  border: none;
+  outline: 0;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 31px 16px 9px;
+  margin: 0;
+  color: #111217;
+  font-weight: 600;
+  caret-color: #1c2a9a;
+}
+
+
+.PrimaryButton_btn__srzx7{
+   min-width: 170px;
+   min-height: 50px;
+   color: white;
+   border-radius: 8px;
+   padding: 14.5px 32px;
+   font-family: 'Libre Franklin';
+   font-weight: 600;
+   font-size: 17px;
+   letter-spacing: 0.35px;
+   line-height: 21px;
+}
+
+.PrimaryButton_btn__srzx7:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=main.f701dbc9.css.map*/

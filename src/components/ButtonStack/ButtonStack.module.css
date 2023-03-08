@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 327px;
-    height: 166px;
+    min-height: 166px;
 }
 
 .btn{
@@ -15,6 +15,7 @@
     font-weight: 600;
     font-size: 17px;
     letter-spacing: 0.35px;
+    margin: 4px 0;
  }
  
  .btn:hover,

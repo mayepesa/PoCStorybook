@@ -1,4 +1,4 @@
-import Dropdown from "../components/Dropdown";
+import Dropdown from "../components/Dropdown/Dropdown";
 
 // First we need to tell it what component we are using
 export default {

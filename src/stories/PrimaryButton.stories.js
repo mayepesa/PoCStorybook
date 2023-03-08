@@ -1,4 +1,4 @@
-import PrimaryButton from "../components/PrimaryButton";
+import PrimaryButton from "../components/PrimaryButton/PrimaryButton";
 
 // First we need to tell it what component we are using
 export default {
@@ -18,4 +18,5 @@ const Template = (args) => <PrimaryButton {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
+  label: 'Primary Button'
 };

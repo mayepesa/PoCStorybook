@@ -1,4 +1,4 @@
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
 import { within, userEvent } from "@storybook/testing-library";
 
 import { expect } from "@storybook/jest";

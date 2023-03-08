@@ -1,4 +1,4 @@
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
 import { withDesign } from 'storybook-addon-designs';
 // First we need to tell it what component we are using
 export default {
